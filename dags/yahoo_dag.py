@@ -2,7 +2,7 @@ from datetime import timedelta, datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
-from dags.yahoo_etl import extract_data_from_yahoo
+from yahoo_etl import extract_data_from_yahoo
 
 default_args = {
     'owner': 'airflow',
