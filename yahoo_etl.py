@@ -1,5 +1,3 @@
-import tweepy, json, os
-import pandas as pd
 from google.cloud import storage
 import yfinance as yf
 from datetime import datetime
@@ -17,7 +15,6 @@ def extract_data_from_yahoo(stock_name: str='MSFT'):
     hist.to_csv(f'gs://yahoo_stock_airflow_bucket/yahoo_{stock_name}_{today}.csv')
 
 # QDrbywkxdhhZmeHa
-
 
 
 
