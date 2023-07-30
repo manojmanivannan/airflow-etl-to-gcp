@@ -6,7 +6,7 @@
 
 Create a compute engine and enable storage related API.
 
-### Setup
+### Setup (linux only)
 Reinstall python3-pip
 1. `sudo apt remove python3-pip`
 2. `sudo apt-get install apt-transport-https`
